@@ -6,6 +6,7 @@ function CheckAnswer(){
         // alert("Correct!");
         document.querySelector("#h_r").innerHTML="<h1>Correct!</h1>";
     
+        document.querySelector("#h_q").innerText = "Is 5 bigger than 4?";
     }else{
         // alert("WRONG");
         document.querySelector("#h_r").innerText = "<h1>Wrong1</h1>";
