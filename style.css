@@ -1,9 +1,18 @@
-html, body{
-    margin: 0;
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#outside_box{
-    background-color: pink;
-    width: 100vw;
-    height: 100vh;
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    text-align: center;
 }
